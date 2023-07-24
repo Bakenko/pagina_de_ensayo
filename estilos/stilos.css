@@ -377,6 +377,17 @@ body {
     top: 80%;
     z-index: 2;
     background-color: white;
-    display: none;
 }
 
+.divisa {
+    background-color: rgb(33, 33, 33);
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 1rem;
+    border: none;
+}
+
+.container_window_total:active{
+    display: none;
+}
