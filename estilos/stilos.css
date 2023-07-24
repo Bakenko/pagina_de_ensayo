@@ -256,7 +256,7 @@ body {
     color: white;
     background-color: black;
     width: 100%;
-    height: 800px;
+    height: 1000px;
     padding: 4rem 0rem 6rem 0;
 }
 
@@ -325,6 +325,8 @@ body {
 
 .button {
    position: fixed;
+   top: 90%;
+   right: 2%;
 }
 
 .button_contac {
@@ -338,3 +340,43 @@ body {
     border-radius: 50px;
     border: 2px solid white;
 }
+
+.style_button_window {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    border-radius: 25px;
+}
+
+.container_window {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.container_window_information {
+    width: 50%;
+    padding: 0 2rem;
+}
+
+.container_window_buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button_window {
+    color: black;
+    background-color: white;
+}
+
+.container_window_total {
+    position: fixed;
+    top: 80%;
+    z-index: 2;
+    background-color: white;
+    display: none;
+}
+
