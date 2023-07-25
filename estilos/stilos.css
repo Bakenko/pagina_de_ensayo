@@ -12,21 +12,8 @@ body {
     font-size: 1rem;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .header {
     position: fixed;
-}
-
-.header_container {    
-    color: white;
-    background-color: black;
-    width: 100%;
-    height: 4rem;
 }
 
 .menu {
@@ -43,21 +30,21 @@ body {
     font-weight: 500;
 }
 
-.link {
-    color: rgb(255, 255, 255);
+.menu_section {
+    width: 70%;
 }
 
-.material-symbols-outlined {
-    border: none;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_container {    
     color: white;
     background-color: black;
-}
-
-.item {
-    padding: 0.4rem 0.7rem;
-    border: 3px solid rgb(33, 150, 243);
-    border-radius: 25px;
-    letter-spacing: 0.2rem;
+    width: 100%;
+    height: 4rem;
 }
 
 .container_inicial {
@@ -98,19 +85,6 @@ body {
     border-radius: 8px;
 }
 
-.style_button {
-    width: 405px;
-}
-
-.transparent_button {
-    background-color: transparent;
-    border: 2px solid white;
-}
-
-.menu_section {
-    width: 70%;
-}
-
 .size_container{
     width: 100%;
     height: 700px;
@@ -123,19 +97,10 @@ body {
     gap: 2rem;
 }
 
-.title {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-}
-
 .container_father {
     display: flex;
     align-items: stretch;
     gap: 70px;
-}
-
-.style_container_father {
-    padding: 2rem 0 4rem 0;
 }
 
 .container_element {
@@ -160,26 +125,11 @@ body {
     box-shadow: none;
 }
 
-.button_more_information {
-    width: 70%;
-    padding-bottom: 1.5rem;
-}
-
-.style_container_plan {
-    background-image: url('https://unity.com/sites/default/files/styles/16_9_xl_scale_width/public/2022-10/Offerings-BG.jpg?itok=OVY2vVTN');
-    color: white;
-}
-
 .title_containers {
     display: flex;
     flex-direction: column;
     justify-content: left;
     padding: 2rem;
-}
-
-.style_container_element {
-    background-color: white;
-    color: black;
 }
 
 .container_logos {
@@ -196,23 +146,8 @@ body {
     padding: 1.5rem;
 }
 
-.box_shadow {
-    box-shadow: none;
-}
-
-.style_transparent_button {
-    color: rgb(33, 150, 243);
-    border: 2px solid rgb(33, 150, 243);
-    width: 460px;
-}
-
 .size_image_container {
     width: 50%;
-}
-
-.style_image {
-    border-radius: 8px;
-    width: 614px;
 }
 
 .size_container_unity {
@@ -230,15 +165,6 @@ body {
     padding: 4rem 0;
 }
 
-.style_final_container {
-    background-image: url('/assets/images/astronaut.jpg');
-    background-size: cover;
-    color: white;
-    border-radius: 8px;
-    width: 80%;
-    height: 400px;
-}
-
 .elements_final_container {
     display: flex;
     flex-direction: column;
@@ -246,23 +172,6 @@ body {
     padding: 0 1rem;
     margin-left: 6rem;
     width: 60%;
-}
-
-.style_create {
-    padding: 3rem;
-}
-
-.style_footer_container {    
-    color: white;
-    background-color: black;
-    width: 100%;
-    height: 800px;
-    padding: 4rem 0rem 6rem 0;
-}
-
-.elements_footer {
-    width: 100%;
-    height: 4rem;
 }
 
 .container_elements_footer {
@@ -273,46 +182,8 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.footer_elements {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none
-}
-
-.footer_elements_list {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-}
-
-.link_footer {
-    width: auto;
-    padding: 0.5rem;
-    color: rgb(255, 255, 255);
-}
-
 .container_line {
     width: 100%;
-}
-
-.footer_line {
-    width: 100%;
-    border: 0;
-    border-top: 1px solid white;
-    margin: 4rem 0 2rem 0;
-}
-
-.style_link_footer {
-    color: rgba(255, 255, 255, 0.441);
-}
-
-.style_elements_footer {
-    align-items: stretch;
-}
-
-.style_list_footer {
-    padding: 0;
 }
 
 .container_copyright {
@@ -321,31 +192,6 @@ body {
     justify-content: left;
     width: 60%;
     padding-right: 40%;
-}
-
-.button {
-   position: fixed;
-   top: 90%;
-   right: 2%;
-}
-
-.button_contac {
-    display: flex;
-    justify-content: right;
-}
-
-.style_button_contac {
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    border: 2px solid white;
-}
-
-.style_button_window {
-    border: 2px solid black;
-    border-radius: 8px;
-    padding: 8px;
-    border-radius: 25px;
 }
 
 .container_window {
@@ -367,17 +213,175 @@ body {
     align-items: center;
 }
 
-.button_window {
-    color: black;
-    background-color: white;
-}
-
 .container_window_total {
     position: fixed;
     top: 88%;
     z-index: 2;
     background-color: white;
     display: none;
+}
+
+.container_window_total:active{
+    display: none;
+}
+
+.style_container_plan {
+    background-image: url('https://unity.com/sites/default/files/styles/16_9_xl_scale_width/public/2022-10/Offerings-BG.jpg?itok=OVY2vVTN');
+    color: white;
+}
+
+.style_container_element {
+    background-color: white;
+    color: black;
+}
+
+.style_container_father {
+    padding: 2rem 0 4rem 0;
+}
+
+.style_link_footer {
+    color: rgba(255, 255, 255, 0.441);
+}
+
+.style_button {
+    width: 405px;
+}
+
+.style_transparent_button {
+    color: rgb(33, 150, 243);
+    border: 2px solid rgb(33, 150, 243);
+    width: 460px;
+}
+
+.style_image {
+    border-radius: 8px;
+    width: 614px;
+}
+
+.style_create {
+    padding: 3rem;
+}
+
+.style_elements_footer {
+    align-items: stretch;
+}
+
+.style_list_footer {
+    padding: 0;
+}
+
+.style_button_contac {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+.style_button_window {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    border-radius: 25px;
+}
+
+.style_final_container {
+    background-image: url('/assets/images/astronaut.jpg');
+    background-size: cover;
+    color: white;
+    border-radius: 8px;
+    width: 80%;
+    height: 400px;
+}
+
+.style_footer_container {    
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 800px;
+    padding: 4rem 0rem 6rem 0;
+}
+
+.button {
+    position: fixed;
+    top: 90%;
+    right: 2%;
+ }
+ 
+ .button_contac {
+     display: flex;
+     justify-content: right;
+ }
+ 
+ .button_window {
+     color: black;
+     background-color: white;
+ }
+
+.transparent_button {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.button_more_information {
+    width: 70%;
+    padding-bottom: 1.5rem;
+}
+
+.elements_footer {
+    width: 100%;
+    height: 4rem;
+}
+
+.footer_elements {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none
+}
+
+.footer_elements_list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.link {
+    color: rgb(255, 255, 255);
+}
+
+.link_footer {
+    width: auto;
+    padding: 0.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.material-symbols-outlined {
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+.item {
+    padding: 0.4rem 0.7rem;
+    border: 3px solid rgb(33, 150, 243);
+    border-radius: 25px;
+    letter-spacing: 0.2rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.box_shadow {
+    box-shadow: none;
+}
+
+.footer_line {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid white;
+    margin: 4rem 0 2rem 0;
 }
 
 .divisa {
@@ -387,8 +391,4 @@ body {
     height: 40px;
     font-size: 1rem;
     border: none;
-}
-
-.container_window_total:active{
-    display: none;
 }
